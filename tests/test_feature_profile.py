@@ -6,7 +6,7 @@ from base.base_test import BaseTest
 faker = Faker()
 
 @allure.feature("Profile Functionality")
-# @pytest.mark.usefixtures("driver")
+@pytest.mark.usefixtures("driver")
 class TestProfileFeature(BaseTest):
 
     @allure.title("Change profile name")

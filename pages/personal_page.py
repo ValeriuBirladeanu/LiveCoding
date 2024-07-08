@@ -12,7 +12,7 @@ class PersonalPage(BasePage):
 
     FIRST_NAME_FIELD = ["xpath", "//input[@name='firstName']"]
     SAVE_BUTTON = ["xpath", "(//button[@type='submit'])[1]"]
-    SPINNER = ("xpath", "//div[@class='oxd-loading-spinner']")
+    SPINNER = ("xpath", "//div[@class='oxd-loading-spinner-container']")
 
     def change_name(self, new_name):
         with allure.step(f"Change name on '{new_name}'"):
