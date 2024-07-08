@@ -38,7 +38,7 @@ jobs:
           sudo cp -R allure-report/history/* ./.github/gh-pages/history/
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v3.9
+        uses: JamesIves/github-pages-deploy-action@3.9
         with:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
