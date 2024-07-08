@@ -1,0 +1,22 @@
+{
+  "1743aa4e1ebdb399d68758464aeb7edc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc75173ef100d2fd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1720446754691,
+        "stop" : 1720446767271,
+        "duration" : 12580
+      }
+    } ]
+  }
+}
