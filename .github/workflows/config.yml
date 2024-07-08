@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
       - name: Checkout (copy) gh-pages repository to GitHub runner
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           ref: gh-pages
           path: ./.github/gh-pages
@@ -38,7 +38,7 @@ jobs:
           sudo cp -R allure-report/history/* ./.github/gh-pages/history/
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+        uses: actions/deploy-pages@v3.9
         with:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
