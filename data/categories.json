@@ -6,13 +6,13 @@
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "Change profile name",
-        "uid" : "5f26dd0c8511d936",
+        "uid" : "563aa531ad7b679c",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1720458366491,
-          "stop" : 1720458409067,
-          "duration" : 42576
+          "start" : 1720460981780,
+          "stop" : 1720461014911,
+          "duration" : 33131
         },
         "flaky" : false,
         "newFailed" : false,
