@@ -8,6 +8,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          node-version: '20'
 
       - name: Checkout (copy) gh-pages repository to GitHub runner
         uses: actions/checkout@v2
